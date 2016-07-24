@@ -21,7 +21,11 @@ public class chesspanel extends JFrame implements ActionListener {
     	 setResizable(false);
     	 setSize(500,500);
     	 setLocation((width-500)/2,(height-500)/2);
+    	 
+    	 //关闭窗口程序停止运行
     	 setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    	 
+    	 //显示窗口
     	 setVisible(true);
     
      }
